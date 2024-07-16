@@ -1,0 +1,42 @@
+.control {
+  display: flex;
+  height: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 20px;
+
+  > input {
+    background: none;
+    border-bottom: 1px solid #FFF;
+    font-size: 18px;
+
+    > ::placeholder {
+      color: #aaa;
+    }
+  }
+
+  >input:focus {
+    outline: none;
+    outline-offset: 0px;
+  }
+
+  > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    > input {
+      width: 70px;
+      background: none;
+    }
+
+    > button {
+      background: none;
+
+      > img {
+        filter: invert(100%);
+      }
+    }
+  }
+
+}
